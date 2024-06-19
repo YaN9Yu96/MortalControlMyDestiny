@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<LangVersion>latest</LangVersion>
+	<RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>libs\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>libs\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>libs\BepInEx.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity.Mono">
+      <HintPath>libs\BepInEx.Unity.Mono.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fungus">
+      <HintPath>libs\Fungus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mortal.Battle">
+      <HintPath>libs\Mortal.Battle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mortal.Combat">
+      <HintPath>libs\Mortal.Combat.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mortal.Core">
+      <HintPath>libs\Mortal.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mortal.Free">
+      <HintPath>libs\Mortal.Free.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mortal.Story">
+      <HintPath>libs\Mortal.Story.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>libs\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>libs\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>libs\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>libs\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>libs\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>libs\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
