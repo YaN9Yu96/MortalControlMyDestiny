@@ -4,6 +4,7 @@
 
 本MOD使用BepInEx开发。
 https://github.com/BepInEx/BepInEx
+所需外部库请自行参阅BepInEx使用方法
 
 
 -0.0.3更新
